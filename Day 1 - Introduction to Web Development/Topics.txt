@@ -1,0 +1,39 @@
+Day 1: Introduction to Web Development
+
+
+The Internet
+------------
+- The internet is a global network of interconnected computers that communicate through TCP/IP protocol. 
+- The World Wide Web (WWW) is an information infrastructure / system that allows us to share documents and other resources over the internet. 
+- These documents / resources are identified by URLS (Uniform Resource Locators).
+- Documents are transferred via HTTP (HyperText Transfer Protocol).
+
+
+Front-end / Back-end
+--------------------
+- Front-end web development focuses on the client-side of the web / browser.
+- The client is a computer / machine / device that makes the HTTP request to the server. 
+
+- Back-end web development focuses on the server-side of the web.
+- The server is a machine / computer / software that satisfies requests received from the client. 
+- The server sends back the instructions / code (HTML, CSS, Javascript) required to construct the web page, to the client.
+
+
+HTML, CSS, Javascript
+---------------------
+- The browser on the client-side unpacks the instructions and renders the webpage to the user.
+- HTML, CSS and Javascript are the technologies that enable the browser to render / display a webpage based on the response received from the server. 
+
+"The Purple Dinosaur Danced"
+     (CSS)   (HTML) (Javascript)
+     
+- HTML = Noun. The content of the web page
+- CSS = Adjective. The appearance / formatting of the web page.
+- Javascript = Verb. The actions on the web page.
+
+
+Software Tools
+--------------
+- Google Chrome
+- Visual Studio Code
+  - Material Theme extension: Palenight High Contrast
