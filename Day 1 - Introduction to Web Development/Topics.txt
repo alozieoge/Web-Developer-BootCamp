@@ -27,9 +27,9 @@ HTML, CSS, Javascript
 "The Purple Dinosaur Danced"
      (CSS)   (HTML) (Javascript)
      
-- HTML = Noun. The content of the web page
-- CSS = Adjective. The appearance / formatting of the web page.
-- Javascript = Verb. The actions on the web page.
+- HTML = Noun. The content / structure of the web page
+- CSS = Adjective. The appearance / formatting / styling of the web page.
+- Javascript = Verb. The behaviour / actions on the web page.
 
 
 Software Tools
