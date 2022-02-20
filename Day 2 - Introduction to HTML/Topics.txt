@@ -18,7 +18,7 @@ HTML Elements
 <body></body> : Document Body element
 <title></title> : Document Title element
 <p></p> : Paragraph element
-<h1></h1> : Section Header element
+<h*></h*> : Section Header element. * = 1, 2, 3, 4, 5 or 6
 <ul></ul> : Unordered List element
 <ol></ol> : Order List element
 <li></li> : List Item element
