@@ -1,0 +1,44 @@
+Introduction to HTML
+--------------------
+
+HTML = HyperText Markup Language
+
+- HTML is a standard markup language / syntax used to specify the structure of a document or webpage. 
+- Originated with formatting of scientific / academic research papers in 1989 / 1990.
+
+- You can view the HTML code behind every webpage. 
+  In Chrome: 
+  - Ctrl + Shift + I, or 
+  - Right-click on webpage -> Inspect element
+
+HTML Elements
+-------------
+<html></html> : Root / Top-level element
+<head></head> : Document Metadata / Header element
+<body></body> : Document Body element
+<title></title> : Document Title element
+<p></p> : Paragraph element
+<h1></h1> : Section Header element
+<ul></ul> : Unordered List element
+<ol></ol> : Order List element
+<li></li> : List Item element
+<a href=""></a> : Anchor element
+<img src="" alt=""> : Embed Image element
+
+
+HTML Boilerplate
+----------------
+- A standardized markup that needs to be in every HTML document / webpage that you create.
+
+<! DOCTYPE html>
+<html>
+  <head>
+    <title> </title>
+    ...
+  </head>
+  <body>
+    ...
+    <!-- Comment -->
+    ...
+  </body>
+<html>  
