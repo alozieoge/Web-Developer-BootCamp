@@ -1,0 +1,66 @@
+HTML and Semantics
+------------------
+
+- HTML5 is the latest evolution of the HTML standard.
+
+2 Concepts of HTML5
+1. A new version of HTML with new elements, attributes, behaviours, features for thebrowser to implement. 
+2. A larger set of technologies that enable building more powerful websites and apps. 
+
+<!DOCTYPE HTML> 
+- Indicates to the browser that the document uses the HTML5 standard.
+
+Block vs Inline Elements
+------------------------
+- Block-level elements take up a whole block / row of space e.g. <div>..</div>, <p>..</p>, <h2>..</h2>
+
+- Inline elements fit along with other elements on the same row e.g. <a href="">..</a>, <img src="">
+
+<div> and <span>
+----------------
+- Content Division <div> element is a generic container to group elements / for flow content. 
+
+- Content Span <span> element is a generic inline container that wraps content / elements to style themtogether using CSS.
+
+Other Elements
+--------------
+<hr>
+<br>
+<sup>
+<sub>
+
+HTML Entity Code
+----------------
+- Used to display reserved / normally invalid characters. 
+- Used to specify difficult-to-type characters. 
+- Starts with & and ends with ;
+- Browser interprets and renders them correctly. 
+
+&copy; 
+&trade;
+&lt;
+&gt;
+&hearts;
+&spades;
+
+Semantic Markup
+---------------
+- Markup that relates to the meaning of the content. 
+
+Benefits
+1. Makes your HTML code to be accessible to external API e.g. web crawlers, SEO.
+2. Makes your webpage more accessible to screenreaders . 
+3. Makes your code more navigable for other developers.
+
+- Unsemantic markup involves just using <div> for every container.
+
+<main>
+<section>
+<header>
+<footer>
+<nav>
+<article>
+<time>
+<abbr>
+<aside>
+<data>
