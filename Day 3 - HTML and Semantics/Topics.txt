@@ -64,3 +64,20 @@ Benefits
 <abbr>
 <aside>
 <data>
+
+Emmet
+-----
+- Emmet is an in-built VS code extension that make it easier to write HTML code. 
+
+Features
+- Auto-complete tags.
+- Auto-generate complex syntax.
+
+- Activated by writing command syntax + Tab
+
+Examples:
+nav>ul>li
+div+p+bq
+ul>li*3
+ul>li.items$*5
+a{Click Me}
