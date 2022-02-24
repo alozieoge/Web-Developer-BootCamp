@@ -1,0 +1,30 @@
+HTML Forms and Tables
+---------------------
+
+Objectives
+----------
+- Create HTML tables
+- Use of tables
+- Role of forms
+- Use form controls
+- Complex HTML forms
+- HTML5 form validation
+- Form accessibility
+
+HTML Tables
+-----------
+- Represents tabular data with rows and columns.
+- Previously used for webpage layout. 
+- Currently usd only to create table data. 
+
+Table Elements
+--------------
+<table>
+<td>
+<tr>
+<th>
+<thead>
+<tbody>
+<tfoot>
+<colgroup>
+<caption>
