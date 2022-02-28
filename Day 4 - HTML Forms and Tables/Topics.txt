@@ -28,3 +28,23 @@ Table Elements
 <tfoot>
 <colgroup>
 <caption>
+
+HTML Forms
+----------
+- A shell / container comprising  collection of interactive controls e.g. text / number inputs, checkboxes, buttons, ... that submit information. 
+- Form element has no visual impact on its own.
+
+Form Attributes
+---------------
+- action: Specifies where the form data should be sent when submitted. 
+- method: specifies the HTTP method (GET or POST) to be used. 
+
+Form elements
+-------------
+<input type="text" placeholder="username">
+<input type="password" placeholder="password">
+<input type="number" placeholder="number">
+<input type:"color">
+<input type:"date">
+
+<label for="<id of input control>"></label>
