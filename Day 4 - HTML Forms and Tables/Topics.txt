@@ -34,17 +34,32 @@ HTML Forms
 - A shell / container comprising  collection of interactive controls e.g. text / number inputs, checkboxes, buttons, ... that submit information. 
 - Form element has no visual impact on its own.
 
+<form action="https://www.reddit.com/search" method="GET"> </form>
+
 Form Attributes
 ---------------
 - action: Specifies where the form data should be sent when submitted. 
 - method: specifies the HTTP method (GET or POST) to be used. 
 
-Form elements
--------------
-<input type="text" placeholder="username">
+Form Input elements
+-------------------
+<input type="text" placeholder="username" name="user_name" id="user">
 <input type="password" placeholder="password">
 <input type="number" placeholder="number">
 <input type:"color">
 <input type:"date">
+<input type="range">
+<input type="checkbox">
+<input type="radio" name="group">
+<input type="submit">
 
 <label for="<id of input control>"></label>
+
+Other Form elements
+-------------------
+<button> </button>
+<select> <option></option> </select>
+<textarea> </textarea>
+
+- The 'name' attribute of an input element / control determines the variable that is returned in the URL when the form is submitted. 
+- The 'value' attribute of n input element / control determines the value returned in the URL to the server.
