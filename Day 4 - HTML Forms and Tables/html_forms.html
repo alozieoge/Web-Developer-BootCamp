@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <!-- file:///D:/tacos?username=chickenman -->
+    <!-- file:///D:/tacos?username=chickenman&password=12345 -->
+    <!-- file:///D:/tacos?username=alozie&password=12345&color=%23ff0000&num=69&date=2022-02-28 -->
+
+    <form action="/tacos">
+
+        <p>
+            <label for="username">Enter a username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+
+        <p>
+            <label for="password">Enter a password:</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+
+        <button>IN THE MIDDLE!</button>
+        <p>
+            <label for="color">Select a color:</label>
+            <input id="color" type="color" name="color">
+        </p>
+
+        <p>
+            <label for="number">Enter a number:</label>
+            <input id="number" type="number" placeholder="Enter a number" name="num" min="1" max="1000" step="2">
+        </p>
+
+        <p>
+            <label for="date">Enter a date: </label>
+            <input id="date" type="date" name="date">
+        </p>
+        <!-- This button doesn't submit the form because of the "type attribute" -->
+        <button type="button">Regular button (won't submit)</button>
+        <!-- This button submits the form -->
+        <button>Submit!!!</button>
+        <!-- So does this one: -->
+        <input type="submit" value="Ciick Me!">
+
+    </form>
+    <hr>
+    <!-- Outside the form, no default behaviour -->
+    <button>Outside the Form!</button>
+
+    <h2>Hijacking Searches</h2>
+    <h3>Search Reddit</h3>
+    <form action="https://www.reddit.com/search">
+        <input id="name" type="text" name="q">
+        <button>Search Reddit</button>
+    </form>
+
+    <h3>Search Google</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" id="google">
+        <button>Search Google</button>
+    </form>
+
+    <h3>Search Youtube</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" id="youtube">
+        <button>Search Youtube</button>
+    </form>
+
+    <h2>More Inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree" checked>
+        <label for="agree">I agree to everything</label>
+
+        <p>
+            <!-- file:///D:/birds?agree_tos=on&size=m -->
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S:</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M:</label>
+            <input type="radio" name="size" id="m" value="m">
+            <label for="l">L:</label>
+            <input type="radio" name="size" id="l" value="l">
+            <label for="xl">XL:</label>
+            <input type="radio" name="size" id="xl" value="xl">
+        </p>
+
+        <p>
+            <!-- file:///D:/birds?agree_tos=on&meal=veg -->
+            <label for="meal">Please select a entree</label>
+            <select name="meal" id="meal">
+                <option value="">--Please choose an option</option>
+                <option value="fish">Fish</option>
+                <option value="veg" selected>Vegetarian</option>
+                <option value="steak">Steak</option>
+            </select>
+
+        </p>
+
+        <p>
+            <label for="cheese">Amount of cheese:</label>
+            <input type="range" name="cheese_level" id="cheese" min="0" max="100" step="10" value="70">
+        </p>
+
+        <p>
+            <label for="requests">Any special requests?</label>
+            <br>
+            <textarea name="requests?" id=requests"" cols="30" rows="5" placeholder="Type something here"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>
