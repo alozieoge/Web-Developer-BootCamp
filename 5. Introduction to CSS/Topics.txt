@@ -1,0 +1,12 @@
+Introduction to CSS
+-------------------
+
+CSS = Cascading Style Sheets
+
+- CSS is a language for describing how HTML documents appear - arranging and styling.
+
+CSS Rule / Pattern
+-----------------
+selector {
+  property: value;
+}
