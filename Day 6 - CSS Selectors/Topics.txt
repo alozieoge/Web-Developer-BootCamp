@@ -1,0 +1,16 @@
+CSS Selectors
+-------------
+
+Lessons
+-------
+- Element selector
+- Class selector
+- ID selector
+- Descendent selector
+- Direct Descendent selector
+- Adjacent selector
+- Attribute selector
+- Pseudo elements
+- Pseudo classes
+- CSS specificity : Determine which CSS rule has priority when rules clash. 
+
