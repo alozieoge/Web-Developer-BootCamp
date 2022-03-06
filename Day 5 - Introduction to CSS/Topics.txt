@@ -1,12 +1,29 @@
 Introduction to CSS
 -------------------
 
-CSS = Cascading Style Sheets
+Topics
+------
+- Overview of CSS
+- Basic CSS syntax
+- Including styles correctly
+- Color systems: RGB,Hex, etc
+- Text properties
+- font-family property
 
+Overview
+--------
+- CSS = Cascading Style Sheets
 - CSS is a language for describing how HTML documents appear - arranging and styling.
+- It is used to style the visual representation of existing HTML docs.
 
-CSS Rule / Pattern
------------------
+CSS Rule / Pattern / Template
+-----------------------------
 selector {
   property: value;
 }
+
+Including Styles
+----------------
+1. Inline styles
+2. <Style> element
+3. Extrernal stylesheet
