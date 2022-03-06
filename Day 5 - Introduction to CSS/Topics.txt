@@ -10,11 +10,13 @@ Topics
 - Text properties
 - font-family property
 
+
 Overview
 --------
 - CSS = Cascading Style Sheets
 - CSS is a language for describing how HTML documents appear - arranging and styling.
 - It is used to style the visual representation of existing HTML docs.
+
 
 CSS Rule / Pattern / Template
 -----------------------------
@@ -22,8 +24,42 @@ selector {
   property: value;
 }
 
+
 Including Styles
 ----------------
 1. Inline styles
-2. <Style> element
+- Write CSS styling inside the element's starting tag. 
+<h1 style = "color: red">Hello World!</h1>
+- Limits the styling to the HTML document. 
+- Requires duplication for every occurance of the element. 
+- Requires changing every element to make modifications. 
+
+2. <Style> element:
+- Write the CSS styling in the <style>...</style> element within the <head>...</head> element.
+- Limits the styling to the current HTML ndocument. 
+
 3. Extrernal stylesheet
+- Write the CSS styling in a separate .css stylesheet and link it using a <link> tag in the <head>...</head> element. 
+- Flexible; Stylesheet can be referenced from multiple HTML documents. 
+
+
+CSS Properties
+--------------
+Color properties:
+- color
+  -> Named colors
+  -> RGB color system: RGB(x, x, x)
+  -> HEX color system: #xxxxxx
+- background-color
+- background
+
+Text properties:
+- text-align
+- font-weight
+- text-decoration
+- line-height
+- letter-spacing
+- font-size
+  -> Absolute: px, mm, cm, in ...
+  -> Relative: em, rem, % ...
+- font-family
