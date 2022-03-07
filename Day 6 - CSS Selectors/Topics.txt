@@ -1,0 +1,63 @@
+CSS Selectors
+=============
+
+Lessons
+-------
+- Universal selector
+- Element selector
+- Selector list
+- Class selector
+- ID selector
+- Descendent selector
+- Direct Descendent selector
+- Adjacent selector
+- Attribute selector
+- Pseudo elements
+- Pseudo classes
+- CSS specificity : Determine which CSS rule has priority when rules clash. 
+- Chrome dev tools for debugging CSS
+
+
+Universal Selector
+------------------
+- Selects all elements. 
+* {
+  color : blue;
+}
+
+Element Selector
+----------------
+- Selects all elements of the same type / tag. 
+button {
+  font-size : 30px;
+}
+
+Selector List
+-------------
+- Combines multiple selectors in a list. 
+h1, h2 {
+  color : red;
+}
+
+ID Selector
+-----------
+- Selects an element based on its unique ID.
+#signup {
+  background-color : teal;
+}
+
+Class Selector
+--------------
+- Selects elements (same or different type) belonging to a given class. 
+.post {
+  color : green;
+}
+
+Descendant Selector
+-------------------
+- Selects elements that are nested within another element. 
+li a {
+  color : yellow;
+}
+
+
