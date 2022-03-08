@@ -1,0 +1,42 @@
+CSS Box Model
+=============
+
+Topics
+------
+- Width and height
+- Border
+- Padding
+- Margin
+- Display property
+- Units: %, ems, rems
+- Border radius
+
+
+Box Model
+---------
+- Every element in CSS is a box that has a set of properties and values. 
+
+___          ________________________
+   |        |        padding         | 
+   |        |     ______________     | 
+   |        |    |<------width->|    |   
+   | margin |    |              |    | border
+   |<------>|    | height       |    |  
+   |        |    |______________|    |  
+   |        |                        | 
+___|        |________________________| 
+
+
+Width and Height
+----------------
+- Sets the width and height of the element i.e. its inner content. 
+
+Border
+------
+- Sets the border properties around an element. 
+  - border-width: sets border thickness.
+  - border-color: sets border color.
+  - border-style: sets border outline e.g. dashed, solid, etc.
+  
+- To set the width of the entire element including its border, set:
+  { box-sizing: border-box; }
