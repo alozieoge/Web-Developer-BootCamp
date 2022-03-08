@@ -12,9 +12,19 @@ Topics
 - Border radius
 
 
-Intro
------
+Box Model
+---------
 - Every element in CSS is a box that has a set of properties and values. 
+
+___          ________________________
+   |        |        padding         |
+   |        |     ______________     |
+   |        |    |<---width---->|    | border 
+   | margin |    |              |    |
+   |<------>|    |height        |    |
+   |        |    |______________|    |
+   |        |                        |
+___|        |________________________|
 
 
 Width and Height
