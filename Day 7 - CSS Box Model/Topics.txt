@@ -31,6 +31,7 @@ Width and Height
 ----------------
 - Sets the width and height of the element i.e. its inner content. 
 
+
 Border
 ------
 - Sets the border properties around an element. 
@@ -38,5 +39,32 @@ Border
   - border-color: sets border color.
   - border-style: sets border outline e.g. dashed, solid, etc.
   
-- To set the width of the entire element including its border, set:
+- To set the width of the entire element including its border:
   { box-sizing: border-box; }
+  
+- All 3 border properties can be set at once:
+  { border: 5px   dashed  yellow; }
+           width | style | color
+
+- border-radius: rounds the corners of the outside border.
+  {border-radius: 50%; } gives a circular border if the element's width = height.
+  {border-top-left-raddius: 10px; }
+
+
+Padding
+-------
+- Sets the space between the content area and the element's border. 
+- Can be set individually for each side or all 4 sides together. 
+
+{ padding: 10px  20px     30px    50px; }
+           top | right | bottom | left
+           
+
+Margin
+------
+- Sets the space outside an element's border and another element's border.
+- Some elements have a preset margin by default e.g. <h1>, <body> ...
+- Can be set individually for each side or all 4 sides together. 
+
+{ margin: 10px  20px     30px    50px; }
+          top | right | bottom | left
