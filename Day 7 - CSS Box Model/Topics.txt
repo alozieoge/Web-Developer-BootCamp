@@ -68,3 +68,73 @@ Margin
 
 { margin: 10px  20px     30px    50px; }
           top | right | bottom | left
+
+
+Display property
+----------------
+- Sets whether an element is inline or block. 
+
+- Inline elements fit alongside other elements. 
+- Block elements take up the whole horizontal space. 
+
+Values:
+1. Inline { display: inline; }
+- width and height property values are ignored. 
+- margin and padding property values push other elements away horizontally but not vertically 
+  - i.e. top and bottom margin and padding values are ignored. 
+  
+2. Block { display: block; }
+- The element breaks the flow of the document. 
+- width, height, margin and padding are all respected.
+
+3. Inline-block { display: inline-block; }
+- Makes the element behave like an inline element i.e. fits alongside other elements.
+- But width, height, margin and padding values are respected. 
+
+{ display: none; }
+- Hides an element on the page. 
+
+
+CSS Units
+---------
+Relative Units  | Absolute Units
+----------------|----------------
+ - em           | - px
+ - rem          | - pt
+ - %            | - in
+ - vh           | - cm
+ - vw           | - mm
+ 
+ 
+%
+- Always relative to some other value. 
+
+- Either from the parent element 
+  { width: 50%; 
+    height: 70%; } or 
+  
+- from the element itself 
+  { line-height: 50%; }.
+ 
+em
+- With font-size: 
+  - 1 em = font-size of parent
+  - 2 em = 2 * font-size of parent
+  ...
+  
+- With other properties e.g. order-width, margin, padding, border-radius, ...:
+  - 1 em = font-size of element itself
+  - 2 em = 2 * font-size of element itself
+  ...
+  
+- em can cause font-size of nested elements to grow or shrink very quickly e.g. ul>il>ul>il>...
+
+rem
+- Derives font-size from the root html element's font-size. 
+- Root element is <html>...</html>
+- Easier to work with since only 1 root exists in a document.
+
+- If root element's font-size = 20 px, then
+  - 1 rem = 20 px always
+  - 2 rem = 40 px always
+  ...
