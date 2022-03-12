@@ -1,0 +1,47 @@
+Additional CSS Properties
+=========================
+
+- Transitions
+- Position property
+- Opacity and Alpha channel
+- Google Fonts
+- Background property
+- Transforms
+
+
+Alpha and Opacity
+-----------------
+- Alpha is the level of transparency applied to an element's background color. 
+- 0 (full transparency) <= alpha <= 1 (no transparency)
+
+- Represented in rgba: (0, 209, 112, 0.5)
+- or in hex system: #00cca80f
+                           ^^ alpha value
+
+
+- Opacity sets the level of transparency of an element and all elements contained within it. 
+- It applied to both the (text) color and background color of an element and its child elements.
+- 0 (full transparency) <= opacity <= 1 (no transparency)
+- It is a stand-alone CSS property. { opacity: 0.5; }
+
+
+Position
+--------
+- Sets the position of an element in a document. 
+- Determines how 4 other properties work: 
+  { top, right, bottom, left }. 
+  
+Position values
+---------------
+1. static
+- Element is positioned in the normal document flow.
+- Default setting of all elements. 
+- { top, right, bottom, left } have no effect. 
+
+2. relative
+- Element is positioned in the normal document flow but offset relative to itself (static position) based on { top, right, bottom, left } values. 
+
+
+
+
+
