@@ -39,9 +39,23 @@ Position values
 - { top, right, bottom, left } have no effect. 
 
 2. relative
-- Element is positioned in the normal document flow but offset relative to itself (static position) based on { top, right, bottom, left } values. 
+- Element is positioned in the normal document flow, 
+- But offset relative to itself (static position) based on { top, right, bottom, left } values. 
 
+3. absolute 
+- Element is removed from the normal document flow. 
+- By default, it is positioned relative to the nearest positioned ancestor if any, 
+- Otherwise it is positioned relative to the initial container / ancestor i.e. <body></body>. 
+- Based on the { top, right, bottom, left } values. 
 
+4. fixed
+- Element is removed from the normal document flow,  
+- And occupies no space in the page layout. 
+- It is positioned relative to the initial containing block, defined by the page's current viewport.
+- Commonly used to make the navigation bar remain at the top of the screen while scrolling up or down a webpage. 
 
-
+5. sticky
+- Element is positioned in the normal document flow, 
+- And offset relative to its nearest scrolling ancestor (nearest ancestor with scrolling mechanism enabled) and containing block. 
+- Might be tricky to get it to work correctly. 
 
