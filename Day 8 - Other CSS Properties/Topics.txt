@@ -84,3 +84,42 @@ Timing functions
   { transition-timing-function: ease-in; }
   
 
+Transform
+---------
+- Applies transformation to an element e.g. translate, rotate, skew, wrap ...
+- To center an element in a given axis in its parent container, set its margin property to auto in that direction:
+  { margin: auto; }
+  
+Transform functions
+-------------------
+1. rotate() :
+- Rotates an element about a given axis / origin in a given direction. 
+  { transform-origin: bottom right; 
+    transform: rotate(15deg); }
+
+- By default, { transform-origin: centre; }
+- Other roation units include: deg, grad, rad, turns.
+- Other rotation transformations include: rotateX(), rotateY(), rotateZ() ...
+
+2. scale() :
+- Resizes an element up or down in a 2D plane (X and Y axes). 
+  { transform: scale(1, 2); }
+
+- Other scale transformations include: scaleX(), scaleY() ...    
+    
+3. translate() :
+- Moves an element in 2D / 3D space. 
+  { transform: translate(-100px, 50px); }
+  
+- Relative or absolute units can be used.
+- Other translate transformations include: translateX(), translateY(), translateZ(), translate3d() ...   
+    
+4. skew() :
+- Skews an element on the 2D plane (X and Y axes). 
+  { transform: skew(30deg, 10deg); }
+
+- Other skew tyransformations include skewX(), skewY().
+
+- Multiple transform functions can be combined for an element:
+  { transform: translateX(-500px) rotate(0.5turn) scaleY(1.5); }
+- Any element / child contained in the transformed element will also be transformed.
