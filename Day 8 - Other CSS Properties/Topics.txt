@@ -59,3 +59,28 @@ Position values
 - And offset relative to its nearest scrolling ancestor (nearest ancestor with scrolling mechanism enabled) and containing block. 
 - Might be tricky to get it to work correctly. 
 
+
+Transition
+----------
+- Enables you to animate the transition from one property value to another property value / animate the change in appearance of an element. 
+- The transition duration is defined as a CSS property: { transition: 1s; }
+
+- Other specific behaviours of the transition can be defined using the following syntax:
+  property-name | duration | timing-function | delay
+  
+  e.g. { transition: background-color 1s ease-in 2s; }
+  
+- You can specify the transition of multiple properties on the same line:
+  { transition: background-color 1s, border-radius 2s; }
+  
+- or for all properties (not recommended):
+  { transition: all 2s; }
+  
+Timing functions
+----------------
+- Determine how the property transitions between 2 states e.g. linear, step, ease-in, ease-out, bezier ...
+- The transition will still happen in the same duration irrespective of the timing function. 
+- The timing function can be specified as a separate property:
+  { transition-timing-function: ease-in; }
+  
+
