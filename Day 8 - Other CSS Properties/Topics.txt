@@ -59,3 +59,67 @@ Position values
 - And offset relative to its nearest scrolling ancestor (nearest ancestor with scrolling mechanism enabled) and containing block. 
 - Might be tricky to get it to work correctly. 
 
+
+Transition
+----------
+- Enables you to animate the transition from one property value to another property value / animate the change in appearance of an element. 
+- The transition duration is defined as a CSS property: { transition: 1s; }
+
+- Other specific behaviours of the transition can be defined using the following syntax:
+  property-name | duration | timing-function | delay
+  
+  e.g. { transition: background-color 1s ease-in 2s; }
+  
+- You can specify the transition of multiple properties on the same line:
+  { transition: background-color 1s, border-radius 2s; }
+  
+- or for all properties (not recommended):
+  { transition: all 2s; }
+  
+Timing functions
+----------------
+- Determine how the property transitions between 2 states e.g. linear, step, ease-in, ease-out, bezier ...
+- The transition will still happen in the same duration irrespective of the timing function. 
+- The timing function can be specified as a separate property:
+  { transition-timing-function: ease-in; }
+  
+
+Transform
+---------
+- Applies transformation to an element e.g. translate, rotate, skew, wrap ...
+- To center an element in a given axis in its parent container, set its margin property to auto in that direction:
+  { margin: auto; }
+  
+Transform functions
+-------------------
+1. rotate() :
+- Rotates an element about a given axis / origin in a given direction. 
+  { transform-origin: bottom right; 
+    transform: rotate(15deg); }
+
+- By default, { transform-origin: centre; }
+- Other roation units include: deg, grad, rad, turns.
+- Other rotation transformations include: rotateX(), rotateY(), rotateZ() ...
+
+2. scale() :
+- Resizes an element up or down in a 2D plane (X and Y axes). 
+  { transform: scale(1, 2); }
+
+- Other scale transformations include: scaleX(), scaleY() ...    
+    
+3. translate() :
+- Moves an element in 2D / 3D space. 
+  { transform: translate(-100px, 50px); }
+  
+- Relative or absolute units can be used.
+- Other translate transformations include: translateX(), translateY(), translateZ(), translate3d() ...   
+    
+4. skew() :
+- Skews an element on the 2D plane (X and Y axes). 
+  { transform: skew(30deg, 10deg); }
+
+- Other skew tyransformations include skewX(), skewY().
+
+- Multiple transform functions can be combined for an element:
+  { transform: translateX(-500px) rotate(0.5turn) scaleY(1.5); }
+- Any element / child contained in the transformed element will also be transformed.
