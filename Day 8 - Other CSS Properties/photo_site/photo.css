@@ -1,0 +1,18 @@
+img {
+    width: 30%;
+    /* distribute the left-over width (10%) evenly across the left and right margin for each of the 3 images per line.
+    Total of 6 sides => 10% / 6 = 1.6667% */
+    /* margin: 1.6666%; */
+    margin: calc(10%/6);
+}
+
+nav {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1em 0;
+    
+}
