@@ -18,6 +18,32 @@ Objectives
 Introduction to CSS Flexbox
 ---------------------------
 - Flexbox is a 1-D layout method for laying out items in rows / columns. 
-- Recent addition and standard to CSS (4 years)
+- Recent addition and standard to CSS (4 years). 
 - Comprises a series of properties to dynamically distribute space across elements / layout objects in a box / container on a webpage.
+- Solves common layout problems in front-end web-dev. 
+
+Flexbox Model
+-------------
+ _______________________________
+|        |                      |
+|        |                      |
+|-----------Main Axis---------->|
+|        |                      |
+|     Cross Axis                |
+|        |                      |
+|________v______________________|
+
+- By default: 
+  - Main axis: From left to right. 
+  - Cross axis: From top to bottom.
+
+Flexbox Direction
+-----------------
+- The axes and directions can be changed using the property flex-direction. 
+{ flex-direction: row; } // default
+{ flex-direction: row-reverse; }
+{ flex-direction: column; }
+
+
+
 
