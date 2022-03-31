@@ -1,0 +1,23 @@
+Responsive CSS and Flexbox
+==========================
+
+Objectives
+----------
+- Flex shorthand
+- Flexbox properties
+  - Flex-direction
+  - Flex basis, grow and shrink
+  - Align-items
+  - Flex-wrap
+  - Align-content 
+  - Align-self
+  - Justify-content
+- Media Queries
+
+
+Introduction to CSS Flexbox
+---------------------------
+- Flexbox is a 1-D layout method for laying out items in rows / columns. 
+- Recent addition and standard to CSS (4 years)
+- Comprises a series of properties to dynamically distribute space across elements / layout objects in a box / container on a webpage.
+
