@@ -37,13 +37,14 @@ Flexbox Model
   - Main axis: From left to right. 
   - Cross axis: From top to bottom.
 
-Flexbox Direction
------------------
-- The axes and directions can be changed using the property flex-direction. 
+Flex Direction
+--------------
+- Determines how objects / elemts flow in a container.
+- The default axes and directions can be changed using flex-direction. 
 { flex-direction: row; } // default
 { flex-direction: row-reverse; }
 { flex-direction: column; }
-
+{ flex-direction: column-reverse; }
 
 
 
