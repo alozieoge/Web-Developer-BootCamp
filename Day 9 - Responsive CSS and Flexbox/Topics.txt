@@ -39,12 +39,30 @@ Flexbox Model
 
 Flex Direction
 --------------
-- Determines how objects / elemts flow in a container.
+- Determines how objects / elements flow or are arranged in a container.
 - The default axes and directions can be changed using flex-direction. 
-{ flex-direction: row; } // default
-{ flex-direction: row-reverse; }
-{ flex-direction: column; }
-{ flex-direction: column-reverse; }
+  { flex-direction: row; } // default
+  { flex-direction: row-reverse; }
+  { flex-direction: column; }
+  { flex-direction: column-reverse; }
 
-
+Justify Content
+---------------
+- Determines how the container elements / content are distributed across the main axis. 
+- Works like left-justify, right-justify, center-justify in MS Office - Word, Excel, PowerPoint ...
+  { justify-content: flex-start; } // default; elements flow from left to right if { flex-direction: row; } or from top to bottom if { flex-direction: column; }
+  { justify-content: center; }     // elements are centered in the container along the main axis. 
+  
+- Also determines the spacing between and around elements or between elements and the container border, in the main axis.
+  { justify-content: space-between; }  // assigns equal space between elements in the container along the main axis { flex-direction }. 
+  { justify-content: space-around; }   // assigns equal space around elements in the container along the main axis. 
+  { justofy-content: space-evenly; }   // assigns equal space between elements and between element and container border along the main axis. 
+  
+Flex Wrap
+---------
+- Determines how the elements will wrap along the main axis if they exceed the container width / height (depending on its main axis). 
+- Elements will wrap to a new row if { flex-direction: row; } or to a new column if { flex-direction: column; }.
+  { flex-wrap: nowrap; }  // default; will resize the elements width to fit into the container main axis dimension.
+  { flex-wrap: wrap; }
+  { flex-wrap: wrap-reverse; }  // reverse the direction of the wrap / wrap in the opposite direction i.e. from end to start. 
 
