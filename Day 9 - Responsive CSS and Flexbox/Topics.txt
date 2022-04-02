@@ -66,3 +66,20 @@ Flex Wrap
   { flex-wrap: wrap; }
   { flex-wrap: wrap-reverse; }  // reverse the direction of the wrap / wrap in the opposite direction i.e. from end to start. 
 
+Align-Items
+-----------
+- Distributes items / elements along the cross axis. 
+  { align-items: flex-start; }  // default
+  { align-items: flex-start; }  // aligns the elements to the baseline of text contained in each element in the flex container.
+
+Align-Content
+-------------
+- Distributes the space between / around elements along the cross axis. 
+  { align-content: space-between; }
+  { align-content: center; }
+  
+Align-Self
+----------
+- Distributes / specifies the position of individual elements alog the cross axis in a flex container. 
+  
+  div:nth-of-type(1) { align-self: flex-end; } // positions the 2nd <div> element at the end of the cross axis in the container.
