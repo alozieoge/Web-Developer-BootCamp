@@ -66,3 +66,29 @@ Flex Wrap
   { flex-wrap: wrap; }
   { flex-wrap: wrap-reverse; }  // reverse the direction of the wrap / wrap in the opposite direction i.e. from end to start. 
 
+
+Responsive Design
+=================
+- Involves making a webpage respond dynamically and automatically to the device accessing it based on:
+  - device type
+  - screen size
+  - orientation
+  
+- Old Method: Create different CSS stylesheets or different websites for different devices or viewports. 
+- Responsive Method: Create one stylesheet that can respond to device sizes and features using media queries.
+
+Media Queries
+-------------
+- Features / code in CSS stylesheet that enable us to modify element styles depending on certain parameters e.g. device type, viewport size, orientation.
+- Viewport is the rectangualr area in computer graphics that is currently being viewed on a device. 
+- Breakpoint is the point / condition at which a given media query is defined / activated.
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 4em; 
+    } 
+  }
+  
+- Media queries can be combined by chaining or stacking breakpoints.
+- The sequence of CSS styling applied is important when using flexbox and media queries i.e. beware of over-riding styling.
+  
