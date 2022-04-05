@@ -70,7 +70,6 @@ Flex-Wrap
   { flex-wrap: wrap-reverse; }  // reverse the direction of the wrap / wrap in the opposite direction i.e. from end to start. 
 
 
-<<<<<<< HEAD
 Flex Sizing for Cross Axis
 ==========================
 
@@ -145,5 +144,4 @@ Media Queries
   
 - Media queries can be combined by chaining or stacking breakpoints.
 - The sequence of CSS styling applied is important when using flexbox and media queries i.e. beware of over-riding styling.
->>>>>>> webdev-css-flexbox-flex
   
