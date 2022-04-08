@@ -1,0 +1,6 @@
+Pricing Panel Project
+=====================
+
+Objective
+---------
+Create a webpage containing a pricing panel with images for 3 different pricing tiers that is responsive to mobile and PC viewports. 
