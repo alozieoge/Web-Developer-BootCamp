@@ -15,7 +15,6 @@ Objectives
 - Media Queries
 
 
-
 Introduction to CSS Flexbox
 ---------------------------
 - Flexbox is a 1-D layout method for laying out items in rows / columns. 
