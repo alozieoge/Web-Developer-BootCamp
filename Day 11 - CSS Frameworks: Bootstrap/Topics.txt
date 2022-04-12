@@ -1,0 +1,68 @@
+CSS Framework: Bootstrap
+========================
+
+Objectives
+----------
+- What is Bootstrap?
+- Working with CSS frameworks
+- Including 3rd part CSS & CDNS
+- Bootstrap grid
+- Responsive Bootstrap grid
+- Bootstrap navbars
+- Icons
+- Typography & utilities
+- Bootstrap forms
+- Bootstrap buttons
+
+
+What is Bootstrap?
+------------------
+- The world's most popular CSS framework. 
+- Provides the template / starting point for easily and quickly building responsive websites. 
+
+Features of Bootstrap
+---------------------
+1. Components:
+- Pre-built components / elements that canbe incorporated into a website e.g. buttons, navbar, carousel ...
+
+2. Grid System:
+- Helps to construct custom, responsive web layout.
+- Easier than using CSS flexbox.
+
+Using Bootstrap
+---------------
+1. Download Bootstrap source files from www.getbootstrap.com
+2. Copy and paste the Bootstrap CSS stylesheet hosted on the CDN (Content Delivery Network) into the HTML document. 
+
+- Also copy and paste Bootstrap Javascript to enable some responsive components.
+
+
+Layout -> Container
+-------------------
+- Containers are the most basic layout in Bootstrap
+- Automatically set the padding, margin, alignment ... of content in a page. 
+- Required when using the default grid system. 
+- Enabled by including the <... class = "container"> in the element tag.
+
+Components -> Button
+--------------------
+- Pre-defined and customizable button styles are provided in Bootstrap. 
+- Class semantics and attributes implement different styles as stated in the documentation. 
+
+  <button type="button" class="btn btn-primary btn-lg">Primary</button>
+  <button type:"button" class="btn btn-info" disabled>Disabled Info</button>
+  
+Content -> Typography
+---------------------
+- Describes Bootstrap's global settings, headings, body, text, lists, font-family, display ...
+  <... class="display-1">
+  <... class="lead">
+  <... class="blockquote">
+  <... class="text-center">
+  
+Utilities
+---------
+- Like add-ons; helps to quickly style component colors, borders, display, shadows, sizing ...
+  <p class="text-primary">Text</p>
+  <p class="text-dark bg-light">Text</p>
+  
