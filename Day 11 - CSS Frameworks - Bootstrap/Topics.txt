@@ -52,6 +52,38 @@ Components -> Button
   <button type="button" class="btn btn-primary btn-lg">Primary</button>
   <button type:"button" class="btn btn-info" disabled>Disabled Info</button>
   
+Badge
+-----
+- Display a count / label inside another element. 
+- Specified as a class in a <span>. 
+- Used as count for notifications, likes, unread messages ...
+
+  <h1>Header Text <span class="badge bg-primary">2</span></h1>
+  
+Button group
+------------
+- Group multiple buttons in a line (row) or stack (column). 
+- Specified as a class in a <div>. 
+- Specify the 'role' attribute for accessibility.
+
+  <div class="btn-group" role="group">
+    <button class="btn btn-primary">One</button>
+    <button class="btn btn-secondary">Two</button>
+    ...
+  </div>
+  
+Alert
+-----
+- Provides feedback to the user after performing an action. 
+- Specified as a class in a <div>
+- Add a 'dismiss' value to the class to enable closing the alert. 
+
+  <div class="alert alert-primary">
+    <h4 class="alert-heading">What!</h4>
+    You don fucked up, Aaron.
+  </div>
+
+
 Content -> Typography
 ---------------------
 - Describes Bootstrap's global settings, headings, body, text, lists, font-family, display ...
