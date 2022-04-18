@@ -97,4 +97,4 @@ Utilities
 - Like add-ons; helps to quickly style component colors, borders, display, shadows, sizing ...
   <p class="text-primary">Text</p>
   <p class="text-dark bg-light">Text</p>
-  
+
