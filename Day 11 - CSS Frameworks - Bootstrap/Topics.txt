@@ -76,13 +76,21 @@ Alert
 -----
 - Provides feedback to the user after performing an action. 
 - Specified as a class in a <div>
-- Add a 'dismiss' value to the class to enable closing the alert. 
+- Add a 'dismiss' value to the class to enable closing the alert. This requires the Bootstrap JS scipt util.js to work.
 
-  <div class="alert alert-primary">
+  <div class="alert alert-danger">
     <h4 class="alert-heading">What!</h4>
-    You don fucked up, Aaron.
+    You don messed up, Aaron.
+    <button aria-label="Close" class="close" data-dismiss="alert">
+      <span aria-hidden="true">&times;<\span>
+    <\button>
   </div>
 
+- aria... is used to specify properties for accessibility features on screen-readers. 
+  >> aria-hidden="true"  \\ Hide span element from being read by screen-reader.
+  >> aria-label="Close"  \\ Use as text label for the button->span in screen-reader mode.
+
+- See Bootstrap docs for full explanation on dismissing alerts. [https://getbootstrap.com/docs/4.6/components/alerts/#dismissing]
 
 Content -> Typography
 ---------------------
