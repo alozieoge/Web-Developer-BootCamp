@@ -106,3 +106,49 @@ Utilities
   <p class="text-primary">Text</p>
   <p class="text-dark bg-light">Text</p>
 
+
+Bootstrap Grid
+--------------
+- The Bootstrap grid system helps to layout content on a webpage in a way that is responsive to screen size / device display port.
+- It uses the `container` class to align / arrange the components / elements inside it.
+- Contents must be placed within a `row` and `column` class. 
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-3">...</div>
+
+- Each Bootstrap row <div> has 12 units of space to divide between the column <div>(s).
+
+- To explicitly specify the number of units to assign to a column:
+  <div class="col-3">I AM 3 UNITS</div>
+  
+- To automatically create equally-sized columns to fill the row:
+  <div class="col">I AM AUTO-SIZED</div>
+  <div class="col">I AM AUTO-SIZED</div>
+  
+- Explicit and auto-sized column <div>s can be combined in the same row.
+  <div class="col">I AM AUTO-SIZED</div>
+  <div class="col-3">I AM 3 UNITS</div>
+  <div class="col">I AM AUTO-SIZED</div>
+  
+- Specifying less than 12 units in a row leaves white space in the remaining units, which can be re-distributed around the columns.
+- Specifying more than 12 units in a row will cause the last element(s) to overflow to the next line (in the same row).
+  
+
+Responsive Bootstrap Grid
+-------------------------
+- Defines how content is arranged on the webpage based on screen size.
+- Uses built-in breakpoints of maximum screen width.
+
+ Size       | Width      | Class
+------------+------------+---------
+Extra small | < 576 px   | .col-
+Small       | >= 576 px  | .col-sm-
+Medium      | >= 768 px  | .col-md-
+Large       | >= 992 px  | .col-lg-
+Extra large | >= 1200 px | .col-xl-
+
+>> class="col-md-6" // Below medium, take up 12 units of space (default). Above medium, take up 6 units of space
+>> class="col-md-6 col-xl-3" // below medium, take up 12 units. Above medium, take up 6 units. Above extra large, take up 3 units.
+
+Note: Make content columns take up less space / units as the screen gets wider.
