@@ -216,4 +216,36 @@ Navbars
   - sticky navbar
   ... see Bootstrap docs for details
 
+Icons
+-----
+- An icon is a SVGH *SCalabale Vector Graphic) that can be scaled up / down without losing its quality / resolution. because it is defined by a vector line path, like a font character.
 
+- To use an icon, copy its <svg> and paste within the HTML tag value of interest.
+- Set its width and height to "1em" so that it scales according to the size of its parent element.
+
+Free icon resources:
+- bootstrap.com/icons
+- fontawesome.com
+
+
+Utilities
+---------
+- Provide a quick way of applying CSS styles to HTML elements using Bootstrap classes.
+  - border styling
+  - border radius
+  - shadow
+  - spacing: class="{property}{sides}-{breakpoint}-{size}"
+    - margin
+    - padding
+  - display
+  - sizing: class="{property}{size}" e.g. <div class="w-50">Width 50%</div>
+  
+ 
+ Other Bootstrap Components
+ --------------------------
+ - Cards
+ - Carousel
+ - Dropdowns
+ - Spinners
+ - Progress
+ - Modal
