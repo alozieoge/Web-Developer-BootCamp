@@ -152,3 +152,100 @@ Extra large | >= 1200 px | .col-xl-
 >> class="col-md-6 col-xl-3" // below medium, take up 12 units. Above medium, take up 6 units. Above extra large, take up 3 units.
 
 Note: Make content columns take up less space / units as the screen gets wider.
+
+
+Responsive Images
+-----------------
+- Scales an image based on the size of the containing element.
+  <div class="row">
+    <div class="col-md-6 col-xl-4">
+      <img class="img-fluid" src="...">
+    </div>
+  </div>
+  
+
+Grid Alignment
+--------------
+- Bootstrap provides utilities that build upon the CSS flexbox alignment to align content vertically and horizontally.
+
+- To align elements in a row along the cross-axis i.e. vertically, from the top:
+  <div class="row align-items-start">
+  
+- To align individual items / columns along the cross axis:
+  <div class="col-3 align-self-center">
+  
+- To align columns horizontally in a row or define how space is distributed between column content:
+  <div class="row justify-content-between">
+  
+- All alignment utilities also have reponsive variants for different screen sizes:
+  >> .align-items-sm-end
+  >> .align-self-md-start
+  >> .justify-content-lg-between
+  
+
+Forms
+-----
+- Bootstrap provides custom styling and layout for user-input forms and components using class="form-control".
+
+- Group elements in a form control using the div class="form-group" e.g. label and text field.
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="Email">
+  </div>
+  
+- Form control also supports responsive sizing options: >> form-control-lg
+
+Form Layout:
+- Forms can be arranged:
+1. using the default Bootstrap class="row" and class="col" <div>s, or
+2. using the class="form-row" and class="form-group col" <div>s
+
+
+Navbars
+-------
+- Bootstrapm navigation bars are defined using the class="navbar" in the <nav> element.
+
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+  </nav>
+  
+- Special navbar customizations include:
+  - collapsible / expandible navbar
+  - fixed top/bottom navbar
+  - sticky navbar
+  ... see Bootstrap docs for details
+
+Icons
+-----
+- An icon is a SVGH *SCalabale Vector Graphic) that can be scaled up / down without losing its quality / resolution. because it is defined by a vector line path, like a font character.
+
+- To use an icon, copy its <svg> and paste within the HTML tag value of interest.
+- Set its width and height to "1em" so that it scales according to the size of its parent element.
+
+Free icon resources:
+- bootstrap.com/icons
+- fontawesome.com
+
+
+Utilities
+---------
+- Provide a quick way of applying CSS styles to HTML elements using Bootstrap classes.
+  - border styling
+  - border radius
+  - shadow
+  - spacing: class="{property}{sides}-{breakpoint}-{size}"
+    - margin
+    - padding
+  - display
+  - sizing: class="{property}{size}" e.g. <div class="w-50">Width 50%</div>
+  
+ 
+ Other Bootstrap Components
+ --------------------------
+ - Cards
+ - Carousel
+ - Dropdowns
+ - Spinners
+ - Progress
+ - Modal
