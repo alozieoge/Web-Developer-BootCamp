@@ -3,5 +3,3 @@ Museum of Candy Project
 
 Objective:
 Design a responsive website for the "Museum of Candy" using CSS Bootstrap.
-
-
