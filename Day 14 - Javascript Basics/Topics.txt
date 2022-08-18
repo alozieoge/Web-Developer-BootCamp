@@ -1,0 +1,42 @@
+Javascript Basics
+=================
+
+Objectives
+----------
+- Role of Javascript
+- Javascript numbers
+- Variables & Let
+- Const
+- Booleans
+- Variable naming
+
+
+Why Javascipt
+-------------
+- Javascript makes it possible to implement functionality on a website.
+  - Chat
+  - Games
+  - Animation
+  - Shopping
+  - UX
+  - Interactive effects
+  - Live updates
+
+
+Primitive Types
+---------------
+- Types of information that JS can work with / basic building blocks.
+  - Number
+  - String
+  - Boolean
+  - Null
+  - Undefined
+  
+  - Symbol
+  - BigInt
+
+- The console is a REPL.
+  R - Read
+  E - Execute
+  P - Print
+  L - Loop
