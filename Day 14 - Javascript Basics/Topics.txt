@@ -73,3 +73,15 @@ Booleans
 
 - JS variables can change type.
 - Typescript is a version of / add-on to Javascript with strong-typed vriables.
+
+
+Variable Naming and Conventions
+-------------------------------
+- No spaces inside variable names / identifiers.
+- No number as first character in variable names.
+- Variables names can start with underscore _. 
+
+- Use camelCase to name variables.
+- Use meaningful variable names instead of just 1 letter.
+- Start Boolean variable names with is***.
+- Err on the side of meaningfulness instead of conciseness.
