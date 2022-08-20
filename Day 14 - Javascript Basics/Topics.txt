@@ -40,3 +40,36 @@ Primitive Types
   E - Execute
   P - Print
   L - Loop
+
+
+Numbers
+-------
+- JS has only 1 number type.
+- Positive, negative, whole, decimal numbers are all number type.
+- Operations: Addition, Subtraction, Multiplication, Division, Modulo / Remainder, Exponent
+
+- NaN is a value that is of type: number but represents something that is not a number.
+- Priority of amathematical operations:
+  P - Parentheses
+  E - Exponent
+  M - Multiplication
+  D - Division
+  A - Addition
+  S - Subtraction
+
+
+Variables
+---------
+- Variables are labels for storing and accessing values. 
+- Can be defined using `let`. 
+
+- `const` works like `let` but the value cannot be changed / updated.
+- `var` was previously used to define variables in JS. But succeeded by `let`.
+
+
+Booleans
+--------
+- true or false
+
+- JS variables can change type.
+- Typescript is a version of / add-on to Javascript with strong-typed vriables.
