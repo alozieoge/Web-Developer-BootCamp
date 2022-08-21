@@ -5,10 +5,10 @@ Objectives
 ----------
 - Role of Javascript
 - Javascript numbers
-- Variables & Let
-- Const
+- Varriables & Let
+- Const vs Var
 - Booleans
-- Variable naming
+- Variable naming & conventions
 
 
 Why Javascipt
