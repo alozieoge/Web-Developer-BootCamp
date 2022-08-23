@@ -3,7 +3,7 @@ Javascript Basics
 
 Objectives
 ----------
-- Role of Javascript
+- Why Javascript
 - Javascript numbers
 - Varriables & Let
 - Const vs Var
