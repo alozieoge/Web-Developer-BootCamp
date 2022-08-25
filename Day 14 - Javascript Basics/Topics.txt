@@ -11,8 +11,8 @@ Objectives
 - Variable naming & conventions
 
 
-Why Javascipt
--------------
+Why Javascipt?
+--------------
 - Javascript makes it possible to implement functionality on a website.
   - Chat
   - Games
