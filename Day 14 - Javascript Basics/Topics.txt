@@ -32,6 +32,7 @@ Primitive Types
   - Null
   - Undefined
   
+- Other less common types are:
   - Symbol
   - BigInt
 
