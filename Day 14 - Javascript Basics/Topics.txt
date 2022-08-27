@@ -85,4 +85,4 @@ Variable Naming and Conventions
 - Use camelCase to name variables.
 - Use meaningful variable names instead of just 1 letter.
 - Start Boolean variable names with is***.
-- Err on the side of meaningfulness instead of conciseness.
+- Err on the side of meaningfulness instead of conciseness. 
