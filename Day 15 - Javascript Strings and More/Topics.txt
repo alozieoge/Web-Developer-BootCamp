@@ -9,3 +9,6 @@ Objectives
 4. String methods
 5. String template literals
 6. Random numbers and Math object
+
+Strings
+-------
