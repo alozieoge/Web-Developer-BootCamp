@@ -1,0 +1,11 @@
+Javascript Strings and More
+===========================
+
+Objectives
+----------
+1. String basics
+2. Indices and length
+3. Undefined and Null
+4. String methods
+5. String template literals
+6. Random numbers and Math object
