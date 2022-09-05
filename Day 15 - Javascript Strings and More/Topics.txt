@@ -41,3 +41,25 @@ String Methods
   >> greeting.trim().toUpperCase()
   >>>> "HELLO AGAIN!!!"
   
+String Methods with Arguments
+-----------------------------
+- Arguments are inputs that can be passed into a method to modify how it behaves. 
+  >> let tvShow = "catdog";
+  >> tvShow.indexOf("cat"); // 0
+  >> tvShow.indexOf("dog"); // 3
+  >> tvShow.indexOf("z");   // -1 (not found)
+  
+- Optional method arguments are usually enclosed in square brackets [...] or are preceeded with a question mark ?
+  .slice(beginIndex [, endIndex]) or
+  .slice(beginIndex, ?endIndex)
+   - returns a subset of the string starting from the beginIndex to the (endIndex - 1) or the last character.
+  
+  .replace(searchString, replaceString)
+   - replaces the first occurrence of the searchString with the replaceString.
+  
+  .replaceAll(searchString, replaceString)
+   - replaces all occurrence of the searchString with the replaceString.
+   
+  .repeat(count)
+   - repeats the string count number of times in a new string.
+   
