@@ -12,3 +12,32 @@ Objectives
 
 Strings
 -------
+- String of characters that represent text.
+- Wrapped in either single-quotes ('...') or double-quotes ("...").
+- JS strings support quotes within strings
+  >> "I told her 'go away!'"
+  >> 'She said "No!"'
+  
+String Indices & Length
+-----------------------
+- Strings are zero-indexed (like JS arrays).
+- Strings have a length property by default.
+  >> "Dumbo Octopus".length
+  
+- Strings can be concatenated using the + operator.
+- Strings are immutable. 
+- Adding a number to a string results in a string, because JS casts the number to a string before performing the + operation.
+- To get the type of a variable or value, use typeof:
+  >> typeof "Banana"  or
+  >> typeof("Banana")
+  
+String Methods
+--------------
+- Built-in actions that can be performed on a string.
+  - See all JS string methods on MDN > References > Javascript > Strings.
+
+- Multiple methods can be chained together and applied on a string.
+  >> let greeting = "    hello again!!!    "
+  >> greeting.trim().toUpperCase()
+  >>>> "HELLO AGAIN!!!"
+  
