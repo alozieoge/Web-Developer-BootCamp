@@ -14,7 +14,7 @@ Objectives
 Strings
 -------
 - String of characters that represent text.
-- Wrapped in either single-quotes ('...') or double-quotes ("...").
+- Wrapped in either single-quotes ('...') or double-quotes ("...") or back-ticks (`...`).
 - JS strings support quotes within strings
   >> "I told her 'go away!'"
   >> 'She said "No!"'
@@ -89,3 +89,18 @@ Null:
 Undefined:
 - Variables that don't have an assigned value are undefined.
 - JS way of saying "I don't know the value of this variable / expression."
+  >> "hello!"[99] // undefined
+  >> let x; // undefined
+  
+  
+Math Object and Random Numbers
+------------------------------
+- The JS built-in Math object contains properties and methods for mathematical constants and functions.
+  >> Math.PI // 3.14159...
+  >> Math.abs(-493) // 493
+  >> Math.pow(2,5) // 32
+
+- Math.random() returns a random decimal number between 0 and 1 (non-inclusive).
+- There is no in-built method for random integer generation so wo require multiple methods to implement that functionality.
+  e.g. To generate random numbers between 1 and 10 (inclusive):
+  >> Math.floor(Math.random() * 10) + 1;
