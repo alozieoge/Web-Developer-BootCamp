@@ -10,6 +10,7 @@ Objectives
 5. String template literals
 6. Random numbers and Math object
 
+
 Strings
 -------
 - String of characters that represent text.
@@ -18,6 +19,7 @@ Strings
   >> "I told her 'go away!'"
   >> 'She said "No!"'
   
+
 String Indices & Length
 -----------------------
 - Strings are zero-indexed (like JS arrays).
@@ -41,6 +43,7 @@ String Methods
   >> greeting.trim().toUpperCase()
   >>>> "HELLO AGAIN!!!"
   
+
 String Methods with Arguments
 -----------------------------
 - Arguments are inputs that can be passed into a method to modify how it behaves. 
@@ -63,3 +66,13 @@ String Methods with Arguments
   .repeat(count)
    - repeats the string count number of times in a new string.
    
+
+String Template Literals
+------------------------
+- Template literals are strings that allow embedded expressions, which will be evaluated and then cast into a resulting string.
+- Requires the use of: 
+  - back-tick character to enclose the string, not single or double-quotes.
+  - ${...} to contain each embedded expression.
+  
+  >> `I counted ${3 + 4} sheep` // "I counted 7 sheep"
+  >> `You bought ${qty} ${product.toUpperCase()}. Total is: $${price * qty}` // 'You bought 5 ARTICHOKE. Total is: $11.25'
