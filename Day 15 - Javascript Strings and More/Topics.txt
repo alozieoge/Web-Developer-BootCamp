@@ -76,3 +76,16 @@ String Template Literals
   
   >> `I counted ${3 + 4} sheep` // "I counted 7 sheep"
   >> `You bought ${qty} ${product.toUpperCase()}. Total is: $${price * qty}` // 'You bought 5 ARTICHOKE. Total is: $11.25'
+
+
+Null and Undefined
+------------------
+Null:
+- Intentional absence / lack of any value. 
+- You can assign a value of null.
+  >> let loggedInUser = null;
+  >> loggedInUser = "Max Steel";
+  
+Undefined:
+- Variables that don't have an assigned value are undefined.
+- JS way of saying "I don't know the value of this variable / expression."
