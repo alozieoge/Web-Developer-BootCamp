@@ -103,4 +103,4 @@ Math Object and Random Numbers
 - Math.random() returns a random decimal number between 0 and 1 (non-inclusive).
 - There is no in-built method for random integer generation so wo require multiple methods to implement that functionality.
   e.g. To generate random numbers between 1 and 10 (inclusive):
-  >> Math.floor(Math.random() * 10) + 1; 
+  >> Math.floor(Math.random() * 10) + 1;  
