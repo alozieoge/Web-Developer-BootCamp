@@ -1,2 +1,4 @@
 let randomNumber = 0;
-randomNumber = Math.floor(Math.random() * 10) + 1; 
+let start = 1;
+let end = 10;
+randomNumber = Math.floor(Math.random() * end) + start; 
