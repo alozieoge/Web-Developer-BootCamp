@@ -1,0 +1,10 @@
+Javascript Decision Making
+==========================
+
+Objectives
+----------
+- Comparison operators
+- Running Javascript from a file
+- Conditionals: If, Else-If, Else
+- Truth-y and False-y values
+- Logical AND, OR, NOT
