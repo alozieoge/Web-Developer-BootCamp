@@ -1,6 +1,7 @@
 Javascript Decision Making
 ==========================
 
+
 Objectives
 ----------
 - Comparison operators
@@ -12,4 +13,3 @@ Objectives
 
 Comparison Operators
 --------------------
-- 
