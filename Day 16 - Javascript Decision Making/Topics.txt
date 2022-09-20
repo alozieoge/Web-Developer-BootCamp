@@ -8,3 +8,7 @@ Objectives
 - Conditionals: If, Else-If, Else
 - Truth-y and False-y values
 - Logical AND, OR, NOT
+
+
+Comparison Operators
+--------------------
