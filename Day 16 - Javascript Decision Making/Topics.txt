@@ -49,3 +49,35 @@ Triple Equals ===
   
 - Always use triple equals (strict equality or non-equality) when comparing things in JS.
 
+
+Console, Alert, Prompt
+----------------------
+console.log()
+- prints the passed arguments to the console.
+  >> console.log(1+4, "HI", false)  // 5, "HI", false
+  
+alert()
+- opens a pop-up dialog window that alerts the user.
+- usually requires user action.
+  >> alert("HI THERE!")
+
+prompt()
+- opens a pop-up dialog window that requires user input.
+- user input is always stored as a string.
+  >> prompt("Please enter a number: ")
+  
+- To convert string to integers:
+  >> parseInt("100") // 100
+  >> parseInt("36tbhbda65")  // 36
+- Only the numbers before the first non-numeric character are converted. 
+
+
+
+Running JS Code from File
+-------------------------
+- JS code can be written and saved in a .js file.
+- To run a JS script in HTML, specify its relative path name in a <script src="app.js"></script> tag.
+- JS code / script can still print information to the console window if run from the HTML document.
+
+- Keep all <script></script> elements at the end of the <body>...</body> element.
+  - This ensures that all elements defined in the HTML <body>...</body> are initialized before being acted upon by the JS code.
