@@ -11,6 +11,72 @@ Objectives
 - Logical AND, OR, NOT
 
 
+Decision Making with Code
+-------------------------
+- Having different outcomes based on certain criteria. 
+
 Comparison Operators
 --------------------
-- 
+>   geater than
+<   less than
+>=  greater than or equal to
+<=  less than or equal to
+==  equality
+!=  not equal
+=== strict equality
+!== strict non-equality
+
+- Comparing strings actually compares their Unicode representation. 
+  >> 'a' > 'b' // false
+  >> 'A' > 'a' // false
+  
+Double Equals ==
+----------------
+- This checks for equality of value but not equality of type.
+- It coerces both values to the same type before comparing them.
+- This can lead to unexpected results
+  >> 5 == 5;    // true
+  >> 7 == '7';  // true
+  >> true == false;  // false
+  >> null == undefined;  // true
+  
+Triple Equals ===
+-----------------
+- This checks for equality of type and value.
+  >> 5 === 5;  // true
+  >> 2 === '2'  // false
+  >> 0 === false  // false
+  
+- Always use triple equals (strict equality or non-equality) when comparing things in JS.
+
+
+Console, Alert, Prompt
+----------------------
+console.log()
+- prints the passed arguments to the console.
+  >> console.log(1+4, "HI", false)  // 5, "HI", false
+  
+alert()
+- opens a pop-up dialog window that alerts the user.
+- usually requires user action.
+  >> alert("HI THERE!")
+
+prompt()
+- opens a pop-up dialog window that requires user input.
+- user input is always stored as a string.
+  >> prompt("Please enter a number: ")
+  
+- To convert string to integers:
+  >> parseInt("100") // 100
+  >> parseInt("36tbhbda65")  // 36
+- Only the numbers before the first non-numeric character are converted. 
+
+
+Running JS Code from File
+-------------------------
+- JS code can be written and saved in a .js file.
+- To run a JS script in HTML, specify its relative path name in a <script src="app.js"></script> tag.
+- JS code / script can still print information to the console window if run from the HTML document.
+
+- Keep all <script></script> elements at the end of the <body>...</body> element.
+  - This ensures that all elements defined in the HTML <body>...</body> are initialized before being acted upon by the JS code. 
