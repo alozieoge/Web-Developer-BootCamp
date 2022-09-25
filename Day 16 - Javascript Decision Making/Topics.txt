@@ -7,8 +7,7 @@ Objectives
 2. Running Javascript from a file
 3. Conditionals: If, Else-If, Else
 4. Truth-y and False-y values
-5. Logical AND, OR, NOT
-
+5. Logical AND, OR, NO
 
 Decision Making with Code
 -------------------------
