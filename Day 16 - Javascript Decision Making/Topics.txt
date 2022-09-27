@@ -77,5 +77,5 @@ Running JS Code from File
 - To run a JS script in HTML, specify its relative path name in a <script src="app.js"></script> tag.
 - JS code / script can still print information to the console window if run from the HTML document.
 
-- Keep all <script></script> elements at the end of the <body>...</body> element.
+- Keep all <script></script> element tags at the end of the <body>...</body> element.
   - This ensures that all elements defined in the HTML <body>...</body> are initialized before being acted upon by the JS code. 
