@@ -78,3 +78,29 @@ Running JS Code from File
 
 - Keep all <script></script> element tags at the end of the <body>...</body> element.
   - This ensures that all elements defined in the HTML <body>...</body> are initialized before being acted upon by the JS code. 
+
+
+Conditionals
+------------
+If statement: 
+- Only runs code if given condition is true.
+  >> let random = Math.random();
+  >> if (random < 0.5) {
+  >>    console.log("Your number is less than 0.5!");
+  >>    console.log(random);
+  >> }
+  
+Else If statement:
+- If not the first thing, maybe this other thing?
+- Multiple else-ifs can be linked to handle different conditions.
+- An else-if statement is executed only if the preceding if or else-if statement failed.
+  >> const age = 18;
+  >> if (age < 5) {
+  >>    console.log("You are a baby!);
+  >> } else if (age < 10) {
+  >>    console.log("You are a child!");
+  >> } else if (age < 18) {
+  >>    console.log("You are a teen!");
+  >> } else if (age < 65) {
+  >>    console.log("You are an adult!");
+  >> }
