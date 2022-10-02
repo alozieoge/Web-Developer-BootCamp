@@ -104,3 +104,34 @@ Else If statement:
   >> } else if (age < 65) {
   >>    console.log("You are an adult!");
   >> }
+
+Else statement:
+- If nothiong else was true, do this ... 
+- Serves as a catch-all for any other condition not covered.
+  >> let random = Math.random();
+  >> if (random < 0.5) {
+  >>    console.log("Your number is less than 0.5!");
+  >> } else {
+  >>    console.log("Your number is greater than or equal to 0.5!");
+  >> }
+  >> console.log(random);
+  
+
+Nesting Conditionals
+--------------------
+- Conditional statements can be nested within other conditional statements. 
+- However, this can lead to clunky code.
+
+  >> const password = prompt("Please enter a new password");
+  >> // Password must be 6+ characters
+  >> // Password cannot include space
+  >> 
+  >> if (password.length >= 6) {
+  >>     if (password.indexOf(" ") === -1) {
+  >>         console.log("Your password is valid!");
+  >>     } else {
+  >>         console.log("Password cannot contain spaces!");
+  >>     }
+  >> } else {
+  >>     console.log("Password is too short! It must be 6+ characters.")
+  >> }
