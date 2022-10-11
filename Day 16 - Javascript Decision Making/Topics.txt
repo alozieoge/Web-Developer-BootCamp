@@ -124,7 +124,7 @@ Nesting Conditionals
 
   >> const password = prompt("Please enter a new password");
   >> // Password must be 6+ characters
-  >> // Password cannot include space
+  >> // Password cannot include spaceS
   >> 
   >> if (password.length >= 6) {
   >>     if (password.indexOf(" ") === -1) {
