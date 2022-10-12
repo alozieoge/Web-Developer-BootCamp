@@ -120,7 +120,7 @@ Else statement:
 Nesting Conditionals
 --------------------
 - Conditional statements can be nested within other conditional statements. 
-- However, this can lead to clunky code.
+- However, this can lead to chunky code.
 
   >> const password = prompt("Please enter a new password");
   >> // Password must be 6+ characters
