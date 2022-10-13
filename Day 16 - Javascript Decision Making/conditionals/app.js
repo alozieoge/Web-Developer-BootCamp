@@ -73,4 +73,4 @@ if (password.length >= 6) {
     }
 } else {
     console.log("Password is too short! It must be 6+ characters.")
-}
+} 
