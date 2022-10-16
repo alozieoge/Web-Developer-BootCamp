@@ -72,5 +72,5 @@ if (password.length >= 6) {
         console.log("Password cannot contain spaces!");
     }
 } else {
-    console.log("Password is too short! It must be 6+ characters.")
+    console.log("Password is too short! It must be 6+ characters long.")
 } 
