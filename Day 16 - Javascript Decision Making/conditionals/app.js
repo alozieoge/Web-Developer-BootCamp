@@ -60,7 +60,7 @@
 // console.log(random);
 
 
-const password = prompt("Please enter a new password: ");
+const password = prompt("Please enter a new password: "); 
 
 // Password must be 6+ characters
 // Password cannot include space
