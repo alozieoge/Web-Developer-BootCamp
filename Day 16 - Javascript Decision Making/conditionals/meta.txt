@@ -1,2 +1,2 @@
 Topic:
-HTML and Javascript documents for conditionals examples
+HTML and Javascript files for conditionals examples
