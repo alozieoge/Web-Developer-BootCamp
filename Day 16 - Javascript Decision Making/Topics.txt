@@ -137,6 +137,7 @@ Nesting Conditionals
   >>     console.log("Password is too short! It must be 6+ characters.")
   >> }
  
+ 
 Truth-y and False-y Values
 -------------------------- 
 - 
