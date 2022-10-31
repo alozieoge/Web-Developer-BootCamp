@@ -1,0 +1,11 @@
+Javascript Arrays
+-----------------
+
+Objectives
+----------
+- Array Basics - Creating and Updating
+- Push & Pop
+- Shift & Unshift
+- Concat, IndexOf
+- Slice & Splice
+- Multi-dimensional Arrays
