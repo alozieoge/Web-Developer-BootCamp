@@ -14,6 +14,7 @@ Decision Making with Code
 -------------------------
 - Having different outcomes based on certain criteria. 
 
+
 Comparison Operators
 --------------------
 >   geater than
@@ -140,4 +141,71 @@ Nesting Conditionals
  
 Truth-y and False-y Values
 -------------------------- 
-- 
+- All JS values have an inherent truthyness or falsyness about them. 
+
+False-y values:
+- false
+- 0
+- "" (empty string)
+- null
+- undefined
+- NaN
+
+Truth-y values:
+- Everything else including negative numbers, space ...
+
+>> const userInput = prompt("Enter something");
+>> if (userInput) {
+>>    console.log("TRUTHY!");
+>> } else {
+>>    console.log("FALSY!");
+>> }
+
+
+Logical Operators
+-----------------
+- Logical operators allow us to combine different logical expressions / multiple pieces of logic.
+
+3 core logical operators:
+- AND &&
+- OR ||
+- NOT !
+
+AND:
+- Both sides must be true for the entire logic to be true. 
+  >> 1 <= 4 && 'a' === 'a'; // true
+  >> 'abc'.length === 3 && 1 + 1 === 4; // false
+
+- JS won't bother checking the right-side of the AND logical expression if the left-side is false, before returning a false.
+
+OR:
+- If one side is true, the entire logic is true.
+  >> 1 !== 1 || 10 === 10; // true
+  >> 10/2 === 5 || null; // true
+  >> 0 || undefined; // false
+  
+NOT:
+- Returns true if the expression is false or vice-versa i.e. it negates an expression.
+  >> !null; // true
+  >> !(0 === 0); // false
+  >> !(3 <= 4); // false
+
+
+Switch Statement
+----------------
+- A control-flow statement that can replace multiple if-statements.
+
+>> const day = 2;
+>> switch (day) {
+>>    case 1:
+>>      console.log("Monday");
+>>      break;
+>>    case 2:
+>>      console.log("Tuesday");
+>>      break;
+>>    case 3:
+>>      ...
+>>      ...
+>>    default:
+>>      console.log("Invalid number");
+>> }
