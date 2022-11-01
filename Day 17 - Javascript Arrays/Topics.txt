@@ -1,0 +1,80 @@
+Javascript Arrays
+-----------------
+
+Objectives
+----------
+- Array Basics - Creating and Updating
+- Push & Pop
+- Shift & Unshift
+- Concat, IndexOf
+- Slice & Splice
+- Multi-dimensional Arrays
+
+JS Arrays
+---------
+- A data structure is a collection of data, either of the same or different data types.
+- An array is an ordered collection of values e.g. list of comments on an IG post, collection of levels in a game, songs in a playlist, etc.
+
+Creating Arrays
+---------------
+>> let students = [];
+>> let colors = ['red', 'orange', 'yellow'];
+>> let lottoNums = [19,22,56,12,69];
+>> let stuff = [true, 68, 'cat', null];
+
+Array Random Access
+-------------------
+- Each array element has an index, starting from 0 to array length - 1.
+  >> colors[0]; // red
+  
+Updating / Modifying Arrays
+---------------------------
+- Arrays can be updated by modifying the elements at a given index.
+  >> colors[1] = 'green';
+  >> colors // ['red', 'green', 'yellow']
+  
+- Arrays are mutable but strings are immutable.
+- JS supports updating an array by specifying values at an undefined index. 
+- It will automatically populate non-exiting element indices with undefined.
+  >> colors[5] = 'indigo';
+  >> colors // ['red', 'green', 'yellow', undefined, undefined, 'indigo']
+
+Array Methods
+-------------
+- push() - add to end
+- pop() - remove from end
+- shift() - remove from start
+- unshift() - add to start
+
+- concat() - merge arrays
+- includes() - look for a value
+- indexOf() - find index in array
+- join() - creates a string from an array
+- reverse() - reverses an array
+- slice() - copies a portion of an array
+- splice() - removes/replaces elements
+- sort() - rearranges array elements
+
+push()
+>> let movieLine = ['tom', 'nancy'];
+>> movieLine.push('pablo'); // 3
+>> movieLine; // ['tom', 'nancy', 'pablo']
+
+pop()
+>> let barbell = [];
+>> barbell.push(45,25,10,2.5); // 4
+>> barbell.pop(); // 2.5
+>> barbell; // [45,25,10]
+
+shift()
+>> let movieLine = ['tom', 'nancy', 'pablo', 'oliver', 'eva'];
+>> movieLine.shift(); // 'tom'
+>> movieLine; // ['nancy', 'pablo', 'oliver', 'eva']
+
+unshift()
+>> movieLine.unshift('VIP') // 5
+>> movieLine; // ['VIP', 'nancy', 'pablo', 'oliver', 'eva']
+
+- shift() or pop() from an empty array returns undefined.
+- push() and pop() can be used to simulate a stack data structure (LIFO).
+- push() and shift() can be used to simulate a queue data structure (FIFO).
