@@ -78,3 +78,7 @@ unshift()
 - shift() or pop() from an empty array returns undefined.
 - push() and pop() can be used to simulate a stack data structure (LIFO).
 - push() and shift() can be used to simulate a queue data structure (FIFO).
+
+
+More Array Methods
+------------------
