@@ -111,3 +111,10 @@ splice(start, ?deleteCount, item1, item2, ...)
 >> colors.splice(3,0, 'yellow-green', 'forest-green')
 >> colors // ['red', 'orange', 'yellow', 'yellow-green', 'forest-green', 'green', 'blue', 'violet']
 
+sort()
+- By default, the sort order is ascending and is based on converting the elements to strings and comparing their UTF-16 values. 
+>> let scores = [1, 70, 100, 2500, 9, -12, 0, 34]
+>> scores.sort() // [-12, 0, 1, 100, 2500, 34, 70, 9]
+
+- A custom comparator function can be passed as an argument to the sort() method to define the sorting procedure. 
+
