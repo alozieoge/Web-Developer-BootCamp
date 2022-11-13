@@ -51,8 +51,8 @@ Array Methods
 - indexOf() - find index in array
 - join() - creates a string from an array
 - reverse() - reverses an array
-- slice() - copies a portion of an array
-- splice() - removes/replaces elements
+- slice() - returns a portion of an array
+- splice() - removes/replaces/inserts elements in place
 - sort() - rearranges array elements
 
 push()
@@ -82,4 +82,32 @@ unshift()
 
 More Array Methods
 ------------------
-- 
+concat()
+>> let cats = ['blue', 'kitty'];
+>> let dogs = ['rusty', 'wyatt'];
+>> let comboParty = dogs.concat(cats);
+>> comboParty; // ['rusty', 'wyatt', 'blue', 'kitty']
+
+includes()
+>> cats.includes('blue') // true
+>> cats.includes('Blue') // false
+
+indexOf()
+>> comboParty.indexOf('kitty') // 3
+>> comboParty.indexOf('chunky') // -1
+
+reverse()
+>> comboParty.reverse() // ['kitty', 'blue', 'wyatt', 'rusty']
+
+slice()
+>> let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+>> colors.slice(5) // ['indigo', 'violet']
+>> colors.slice(2,4) // ['yellow', 'green']
+>> colors.slice(-3) // ['blue', 'indigo', 'violet']
+
+splice(start, ?deleteCount, item1, item2, ...)
+>> colors.splice(5,1) // ['indigo']
+>> colors // ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
+>> colors.splice(3,0, 'yellow-green', 'forest-green')
+>> colors // ['red', 'orange', 'yellow', 'yellow-green', 'forest-green', 'green', 'blue', 'violet']
+
