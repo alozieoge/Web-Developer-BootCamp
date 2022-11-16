@@ -117,5 +117,3 @@ sort()
 >> scores.sort() // [-12, 0, 1, 100, 2500, 34, 70, 9]
 
 - A custom comparator function can be passed as an argument to the sort() method to define the sorting procedure. 
-
-- 
