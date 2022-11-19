@@ -42,7 +42,7 @@
 //     console.log("FALSY!");
 // }
 
-if (' ') {
+if (" ") {
     console.log("TRUTHY!");
 }
 else {
